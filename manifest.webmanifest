@@ -1,12 +1,18 @@
 {
-  "name": "Electromagnet",
-  "short_name": "Electromagnet",
-  "id": "com.example.gamename",
-  "description": "",
+  "name": "DIVE.edu - Electromagnet",
+  "short_name": "DIVE.edu - Electromagnet",
+  "id": "com.dive.electromagnet",
+  "description": "Electromagnet Lesson with presentation, simulation, and activity.\nSubject: Science\nGrade: 5\nDeveloper: Ace Daniel T. Barda",
   "orientation": "any",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
   "categories": ["games", "entertainment"],
-  "icons": []
+  "icons": [{
+        "src": "DIVE.edu_icon.png",
+        "sizes": "192x192"
+      },{
+        "src": "DIVE.edu_icon.png",
+        "sizes": "512x512"
+      }]
 }
