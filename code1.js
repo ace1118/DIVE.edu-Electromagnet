@@ -4140,7 +4140,7 @@ for (var i = 0, k = 0, l = gdjs.SimulationCode.GDRestartObjects1.length;i<l;++i)
 }
 gdjs.SimulationCode.GDRestartObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Simulation", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Restarting", false);
 }}
 
 }
