@@ -14,6 +14,7 @@ gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch = class 
     
     this._objectData.IsChecked = objectData.content.IsChecked !== undefined ? objectData.content.IsChecked : true;
     this._objectData.PreviousIsChecked = false;
+    
 
     // It calls the onCreated super implementation at the end.
     this.onCreated();
@@ -51,6 +52,8 @@ gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch = class 
   _togglePreviousIsChecked() {
     this._setPreviousIsChecked(!this._getPreviousIsChecked());
   }
+
+  
 
   
 }

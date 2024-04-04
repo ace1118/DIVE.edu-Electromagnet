@@ -300,7 +300,7 @@ gdjs.copyArray(runtimeScene.getObjects("Next"), gdjs.Activity1Code.GDNextObjects
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17513108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17520964);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -316,7 +316,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17514180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17522036);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct.wav", false, 60, 1);

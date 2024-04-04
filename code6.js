@@ -546,7 +546,7 @@ gdjs.ActivitiesCode.eventsList11(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17446276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17454084);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "audio\\Great.mp3", false, 70, 1);
@@ -559,7 +559,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.ActivitiesCode.asyncCallback17446556 = function (runtimeScene, asyncObjectsList) {
+};gdjs.ActivitiesCode.asyncCallback17454364 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(6);
 }
 { //Subevents
@@ -573,7 +573,7 @@ gdjs.ActivitiesCode.eventsList14 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.ActivitiesCode.asyncCallback17446556(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.ActivitiesCode.asyncCallback17454364(runtimeScene, asyncObjectsList)));
 }
 }
 

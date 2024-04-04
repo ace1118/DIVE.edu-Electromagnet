@@ -2706,7 +2706,7 @@ gdjs.Activity_323Code.eventsList22(runtimeScene);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17763756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17771780);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2722,7 +2722,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17765236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17773260);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2738,7 +2738,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17765148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17773172);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2754,7 +2754,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17768116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17776140);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2770,7 +2770,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17769588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17777612);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2786,7 +2786,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17769500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17777524);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2802,7 +2802,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17772460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17780484);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2818,7 +2818,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17772740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17780764);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong.wav", false, 60, 1);
@@ -2834,7 +2834,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17775636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17783660);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct.wav", false, 60, 1);
@@ -2850,7 +2850,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17777316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17785340);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct.wav", false, 60, 1);
@@ -2866,7 +2866,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17779084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17787108);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct.wav", false, 60, 1);

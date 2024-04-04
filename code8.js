@@ -109,7 +109,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17559212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17567468);
 }
 }
 if (isConditionTrue_0) {
@@ -151,7 +151,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17538300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17537388);
 }
 }
 if (isConditionTrue_0) {
@@ -225,7 +225,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Activity2Code.asyncCallback17582220 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17590548 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -249,14 +249,14 @@ gdjs.Activity2Code.eventsList3 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17582220(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17590548(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Activity2Code.asyncCallback17592484 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17600372 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -279,7 +279,7 @@ gdjs.Activity2Code.eventsList4 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17592484(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17600372(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -489,7 +489,7 @@ gdjs.copyArray(runtimeScene.getObjects("Activity3"), gdjs.Activity2Code.GDActivi
 }
 
 
-};gdjs.Activity2Code.asyncCallback17602268 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17610124 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -513,14 +513,14 @@ gdjs.Activity2Code.eventsList6 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17602268(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17610124(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Activity2Code.asyncCallback17604516 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17612476 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -543,7 +543,7 @@ gdjs.Activity2Code.eventsList7 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17604516(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17612476(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -753,7 +753,7 @@ gdjs.copyArray(runtimeScene.getObjects("Activity3"), gdjs.Activity2Code.GDActivi
 }
 
 
-};gdjs.Activity2Code.asyncCallback17614236 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17622204 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -777,14 +777,14 @@ gdjs.Activity2Code.eventsList9 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17614236(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17622204(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Activity2Code.asyncCallback17616484 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17624452 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -807,7 +807,7 @@ gdjs.Activity2Code.eventsList10 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17616484(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17624452(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1017,7 +1017,7 @@ gdjs.copyArray(runtimeScene.getObjects("Activity3"), gdjs.Activity2Code.GDActivi
 }
 
 
-};gdjs.Activity2Code.asyncCallback17626204 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17634172 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -1041,14 +1041,14 @@ gdjs.Activity2Code.eventsList12 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17626204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17634172(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Activity2Code.asyncCallback17628452 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Activity2Code.asyncCallback17636420 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("False"), gdjs.Activity2Code.GDFalseObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("True"), gdjs.Activity2Code.GDTrueObjects3);
@@ -1071,7 +1071,7 @@ gdjs.Activity2Code.eventsList13 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Activity2Code.GDFalseObjects2) asyncObjectsList.addObject("False", obj);
 for (const obj of gdjs.Activity2Code.GDTrueObjects2) asyncObjectsList.addObject("True", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17628452(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Activity2Code.asyncCallback17636420(runtimeScene, asyncObjectsList)));
 }
 }
 

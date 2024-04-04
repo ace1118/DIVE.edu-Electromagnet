@@ -56,7 +56,7 @@ gdjs.PresentationCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17335268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17343036);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.pauseSoundOnChannel(runtimeScene, 1);
@@ -72,7 +72,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17336060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17343828);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.continueSoundOnChannel(runtimeScene, 1);
@@ -565,7 +565,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17358092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17365860);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -585,7 +585,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17359996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17367764);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -605,7 +605,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17361556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17369324);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -625,7 +625,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17363116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17370884);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -645,7 +645,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17363604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17371372);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -665,7 +665,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17366188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17373956);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -685,7 +685,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17367316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17375084);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -705,7 +705,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17369508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17377276);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -725,7 +725,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17371068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17378836);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -745,7 +745,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17372628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17380396);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -765,7 +765,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17374188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17381956);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -785,7 +785,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17375748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17383516);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -805,7 +805,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17377308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17385076);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -825,7 +825,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17378868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17386636);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
@@ -845,7 +845,7 @@ gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDpl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17380428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17388196);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("play_pasue"), gdjs.PresentationCode.GDplay_9595pasueObjects1);
