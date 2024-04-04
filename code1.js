@@ -2713,221 +2713,6 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects3Objects = Hashtable.newFrom({"magnet": gdjs.SimulationCode.GDmagnetObjects3});
-gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clip2Objects3Objects = Hashtable.newFrom({"paper_clip2": gdjs.SimulationCode.GDpaper_9595clip2Objects3});
-gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects4Objects = Hashtable.newFrom({"magnet": gdjs.SimulationCode.GDmagnetObjects4});
-gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clip2Objects4Objects = Hashtable.newFrom({"paper_clip2": gdjs.SimulationCode.GDpaper_9595clip2Objects4});
-gdjs.SimulationCode.asyncCallback17127340 = function (runtimeScene, asyncObjectsList) {
-gdjs.copyArray(asyncObjectsList.getObjects("magnet"), gdjs.SimulationCode.GDmagnetObjects5);
-
-{for(var i = 0, len = gdjs.SimulationCode.GDmagnetObjects5.length ;i < len;++i) {
-    gdjs.SimulationCode.GDmagnetObjects5[i].returnVariable(gdjs.SimulationCode.GDmagnetObjects5[i].getVariables().getFromIndex(1)).setString("off");
-}
-}}
-gdjs.SimulationCode.eventsList39 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-for (const obj of gdjs.SimulationCode.GDmagnetObjects4) asyncObjectsList.addObject("magnet", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.SimulationCode.asyncCallback17127340(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.SimulationCode.eventsList40 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("magnet"), gdjs.SimulationCode.GDmagnetObjects4);
-gdjs.copyArray(runtimeScene.getObjects("paper_clip2"), gdjs.SimulationCode.GDpaper_9595clip2Objects4);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects4Objects, gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clip2Objects4Objects, false, runtimeScene, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17127004);
-}
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.SimulationCode.GDmagnetObjects4 */
-{for(var i = 0, len = gdjs.SimulationCode.GDmagnetObjects4.length ;i < len;++i) {
-    gdjs.SimulationCode.GDmagnetObjects4[i].returnVariable(gdjs.SimulationCode.GDmagnetObjects4[i].getVariables().getFromIndex(1)).setString("on");
-}
-}
-{ //Subevents
-gdjs.SimulationCode.eventsList39(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("magnet"), gdjs.SimulationCode.GDmagnetObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.SimulationCode.GDmagnetObjects3.length;i<l;++i) {
-    if ( gdjs.SimulationCode.GDmagnetObjects3[i].getVariableString(gdjs.SimulationCode.GDmagnetObjects3[i].getVariables().getFromIndex(1)) == "on" ) {
-        isConditionTrue_0 = true;
-        gdjs.SimulationCode.GDmagnetObjects3[k] = gdjs.SimulationCode.GDmagnetObjects3[i];
-        ++k;
-    }
-}
-gdjs.SimulationCode.GDmagnetObjects3.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.SimulationCode.GDmagnetObjects3 */
-gdjs.copyArray(runtimeScene.getObjects("paper_clip2"), gdjs.SimulationCode.GDpaper_9595clip2Objects3);
-{for(var i = 0, len = gdjs.SimulationCode.GDpaper_9595clip2Objects3.length ;i < len;++i) {
-    gdjs.SimulationCode.GDpaper_9595clip2Objects3[i].getBehavior("Tween").addObjectPositionTween2("position", (( gdjs.SimulationCode.GDmagnetObjects3.length === 0 ) ? 0 :gdjs.SimulationCode.GDmagnetObjects3[0].getPointX("")) - 58, (( gdjs.SimulationCode.GDmagnetObjects3.length === 0 ) ? 0 :gdjs.SimulationCode.GDmagnetObjects3[0].getPointY("")) - 55, "linear", 0.03, false);
-}
-}}
-
-}
-
-
-};gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects3Objects = Hashtable.newFrom({"magnet": gdjs.SimulationCode.GDmagnetObjects3});
-gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clipObjects3Objects = Hashtable.newFrom({"paper_clip": gdjs.SimulationCode.GDpaper_9595clipObjects3});
-gdjs.SimulationCode.eventsList41 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("magnet"), gdjs.SimulationCode.GDmagnetObjects3);
-gdjs.copyArray(runtimeScene.getObjects("paper_clip"), gdjs.SimulationCode.GDpaper_9595clipObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects3Objects, gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clipObjects3Objects, false, runtimeScene, false);
-if (isConditionTrue_0) {
-/* Reuse gdjs.SimulationCode.GDmagnetObjects3 */
-{for(var i = 0, len = gdjs.SimulationCode.GDmagnetObjects3.length ;i < len;++i) {
-    gdjs.SimulationCode.GDmagnetObjects3[i].returnVariable(gdjs.SimulationCode.GDmagnetObjects3[i].getVariables().getFromIndex(0)).setString("on");
-}
-}}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("magnet"), gdjs.SimulationCode.GDmagnetObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.SimulationCode.GDmagnetObjects2.length;i<l;++i) {
-    if ( gdjs.SimulationCode.GDmagnetObjects2[i].getVariableString(gdjs.SimulationCode.GDmagnetObjects2[i].getVariables().getFromIndex(0)) == "on" ) {
-        isConditionTrue_0 = true;
-        gdjs.SimulationCode.GDmagnetObjects2[k] = gdjs.SimulationCode.GDmagnetObjects2[i];
-        ++k;
-    }
-}
-gdjs.SimulationCode.GDmagnetObjects2.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.SimulationCode.GDmagnetObjects2 */
-gdjs.copyArray(runtimeScene.getObjects("paper_clip"), gdjs.SimulationCode.GDpaper_9595clipObjects2);
-{for(var i = 0, len = gdjs.SimulationCode.GDpaper_9595clipObjects2.length ;i < len;++i) {
-    gdjs.SimulationCode.GDpaper_9595clipObjects2[i].getBehavior("Tween").addObjectPositionTween2("position", (( gdjs.SimulationCode.GDmagnetObjects2.length === 0 ) ? 0 :gdjs.SimulationCode.GDmagnetObjects2[0].getPointX("")) - 58, (( gdjs.SimulationCode.GDmagnetObjects2.length === 0 ) ? 0 :gdjs.SimulationCode.GDmagnetObjects2[0].getPointY("")) - 55, "linear", 0.01, false);
-}
-}}
-
-}
-
-
-};gdjs.SimulationCode.eventsList42 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(gdjs.SimulationCode.GDElectromagnetObjects1, gdjs.SimulationCode.GDElectromagnetObjects3);
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.SimulationCode.GDElectromagnetObjects3.length;i<l;++i) {
-    if ( gdjs.SimulationCode.GDElectromagnetObjects3[i].getBehavior("Animation").getAnimationName() == "battery1 nail wire 3" ) {
-        isConditionTrue_0 = true;
-        gdjs.SimulationCode.GDElectromagnetObjects3[k] = gdjs.SimulationCode.GDElectromagnetObjects3[i];
-        ++k;
-    }
-}
-gdjs.SimulationCode.GDElectromagnetObjects3.length = k;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.SimulationCode.eventsList40(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.copyArray(gdjs.SimulationCode.GDElectromagnetObjects1, gdjs.SimulationCode.GDElectromagnetObjects2);
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.SimulationCode.GDElectromagnetObjects2.length;i<l;++i) {
-    if ( gdjs.SimulationCode.GDElectromagnetObjects2[i].getBehavior("Animation").getAnimationName() == "battery1 nail wire 4" ) {
-        isConditionTrue_0 = true;
-        gdjs.SimulationCode.GDElectromagnetObjects2[k] = gdjs.SimulationCode.GDElectromagnetObjects2[i];
-        ++k;
-    }
-}
-gdjs.SimulationCode.GDElectromagnetObjects2.length = k;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.SimulationCode.eventsList41(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.SimulationCode.eventsList43 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("magnet"), gdjs.SimulationCode.GDmagnetObjects3);
-gdjs.copyArray(runtimeScene.getObjects("paper_clip2"), gdjs.SimulationCode.GDpaper_9595clip2Objects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects3Objects, gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clip2Objects3Objects, false, runtimeScene, false);
-if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(1);
-}}
-
-}
-
-
-{
-
-
-gdjs.SimulationCode.eventsList42(runtimeScene);
-}
-
-
 };gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects4Objects = Hashtable.newFrom({"magnet": gdjs.SimulationCode.GDmagnetObjects4});
 gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clipObjects4Objects = Hashtable.newFrom({"paper_clip": gdjs.SimulationCode.GDpaper_9595clipObjects4});
 gdjs.SimulationCode.asyncCallback17135708 = function (runtimeScene, asyncObjectsList) {
@@ -2937,7 +2722,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("magnet"), gdjs.SimulationCode.GDmagn
     gdjs.SimulationCode.GDmagnetObjects5[i].returnVariable(gdjs.SimulationCode.GDmagnetObjects5[i].getVariables().getFromIndex(0)).setString("off");
 }
 }}
-gdjs.SimulationCode.eventsList44 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList39 = function(runtimeScene) {
 
 {
 
@@ -2953,7 +2738,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 }
 
 
-};gdjs.SimulationCode.eventsList45 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList40 = function(runtimeScene) {
 
 {
 
@@ -2975,7 +2760,7 @@ if (isConditionTrue_0) {
 }
 }
 { //Subevents
-gdjs.SimulationCode.eventsList44(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList39(runtimeScene);} //End of subevents
 }
 
 }
@@ -3015,7 +2800,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("magnet"), gdjs.SimulationCode.GDmagn
     gdjs.SimulationCode.GDmagnetObjects5[i].returnVariable(gdjs.SimulationCode.GDmagnetObjects5[i].getVariables().getFromIndex(0)).setString("off");
 }
 }}
-gdjs.SimulationCode.eventsList46 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList41 = function(runtimeScene) {
 
 {
 
@@ -3031,7 +2816,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8)
 }
 
 
-};gdjs.SimulationCode.eventsList47 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList42 = function(runtimeScene) {
 
 {
 
@@ -3048,7 +2833,7 @@ if (isConditionTrue_0) {
 }
 }
 { //Subevents
-gdjs.SimulationCode.eventsList46(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList41(runtimeScene);} //End of subevents
 }
 
 }
@@ -3081,7 +2866,7 @@ gdjs.copyArray(runtimeScene.getObjects("paper_clip"), gdjs.SimulationCode.GDpape
 
 };gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects3Objects = Hashtable.newFrom({"magnet": gdjs.SimulationCode.GDmagnetObjects3});
 gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clipObjects3Objects = Hashtable.newFrom({"paper_clip": gdjs.SimulationCode.GDpaper_9595clipObjects3});
-gdjs.SimulationCode.eventsList48 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList43 = function(runtimeScene) {
 
 {
 
@@ -3133,7 +2918,7 @@ gdjs.copyArray(runtimeScene.getObjects("paper_clip"), gdjs.SimulationCode.GDpape
 }
 
 
-};gdjs.SimulationCode.eventsList49 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList44 = function(runtimeScene) {
 
 {
 
@@ -3153,7 +2938,7 @@ gdjs.SimulationCode.GDElectromagnetObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList45(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList40(runtimeScene);} //End of subevents
 }
 
 }
@@ -3177,7 +2962,7 @@ gdjs.SimulationCode.GDElectromagnetObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList47(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList42(runtimeScene);} //End of subevents
 }
 
 }
@@ -3201,7 +2986,7 @@ gdjs.SimulationCode.GDElectromagnetObjects2.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList48(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList43(runtimeScene);} //End of subevents
 }
 
 }
@@ -3216,7 +3001,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("magnet"), gdjs.SimulationCode.GDmagn
     gdjs.SimulationCode.GDmagnetObjects5[i].returnVariable(gdjs.SimulationCode.GDmagnetObjects5[i].getVariables().getFromIndex(0)).setString("off");
 }
 }}
-gdjs.SimulationCode.eventsList50 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList45 = function(runtimeScene) {
 
 {
 
@@ -3232,7 +3017,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 }
 
 
-};gdjs.SimulationCode.eventsList51 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList46 = function(runtimeScene) {
 
 {
 
@@ -3254,7 +3039,7 @@ if (isConditionTrue_0) {
 }
 }
 { //Subevents
-gdjs.SimulationCode.eventsList50(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList45(runtimeScene);} //End of subevents
 }
 
 }
@@ -3294,7 +3079,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("magnet"), gdjs.SimulationCode.GDmagn
     gdjs.SimulationCode.GDmagnetObjects5[i].returnVariable(gdjs.SimulationCode.GDmagnetObjects5[i].getVariables().getFromIndex(0)).setString("off");
 }
 }}
-gdjs.SimulationCode.eventsList52 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList47 = function(runtimeScene) {
 
 {
 
@@ -3310,7 +3095,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 }
 
 
-};gdjs.SimulationCode.eventsList53 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList48 = function(runtimeScene) {
 
 {
 
@@ -3327,7 +3112,7 @@ if (isConditionTrue_0) {
 }
 }
 { //Subevents
-gdjs.SimulationCode.eventsList52(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList47(runtimeScene);} //End of subevents
 }
 
 }
@@ -3360,7 +3145,7 @@ gdjs.copyArray(runtimeScene.getObjects("paper_clip"), gdjs.SimulationCode.GDpape
 
 };gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects4Objects = Hashtable.newFrom({"magnet": gdjs.SimulationCode.GDmagnetObjects4});
 gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clipObjects4Objects = Hashtable.newFrom({"paper_clip": gdjs.SimulationCode.GDpaper_9595clipObjects4});
-gdjs.SimulationCode.eventsList54 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList49 = function(runtimeScene) {
 
 {
 
@@ -3407,7 +3192,7 @@ gdjs.copyArray(runtimeScene.getObjects("paper_clip"), gdjs.SimulationCode.GDpape
 
 };gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDmagnetObjects3Objects = Hashtable.newFrom({"magnet": gdjs.SimulationCode.GDmagnetObjects3});
 gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clipObjects3Objects = Hashtable.newFrom({"paper_clip": gdjs.SimulationCode.GDpaper_9595clipObjects3});
-gdjs.SimulationCode.eventsList55 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList50 = function(runtimeScene) {
 
 {
 
@@ -3452,7 +3237,7 @@ gdjs.copyArray(runtimeScene.getObjects("paper_clip"), gdjs.SimulationCode.GDpape
 }
 
 
-};gdjs.SimulationCode.eventsList56 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList51 = function(runtimeScene) {
 
 {
 
@@ -3472,7 +3257,7 @@ gdjs.SimulationCode.GDElectromagnetObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList51(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList46(runtimeScene);} //End of subevents
 }
 
 }
@@ -3496,7 +3281,7 @@ gdjs.SimulationCode.GDElectromagnetObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList53(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList48(runtimeScene);} //End of subevents
 }
 
 }
@@ -3520,7 +3305,7 @@ gdjs.SimulationCode.GDElectromagnetObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList54(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList49(runtimeScene);} //End of subevents
 }
 
 }
@@ -3544,7 +3329,7 @@ gdjs.SimulationCode.GDElectromagnetObjects2.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList55(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList50(runtimeScene);} //End of subevents
 }
 
 }
@@ -3552,7 +3337,7 @@ gdjs.SimulationCode.eventsList55(runtimeScene);} //End of subevents
 
 };gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clipObjects3Objects = Hashtable.newFrom({"paper_clip": gdjs.SimulationCode.GDpaper_9595clipObjects3});
 gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDTableObjects3Objects = Hashtable.newFrom({"Table": gdjs.SimulationCode.GDTableObjects3});
-gdjs.SimulationCode.eventsList57 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList52 = function(runtimeScene) {
 
 {
 
@@ -3574,7 +3359,7 @@ if (isConditionTrue_0) {
 
 };gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clip2Objects3Objects = Hashtable.newFrom({"paper_clip2": gdjs.SimulationCode.GDpaper_9595clip2Objects3});
 gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDTableObjects3Objects = Hashtable.newFrom({"Table": gdjs.SimulationCode.GDTableObjects3});
-gdjs.SimulationCode.eventsList58 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList53 = function(runtimeScene) {
 
 {
 
@@ -3596,7 +3381,7 @@ if (isConditionTrue_0) {
 
 };gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDpaper_95959595clip3Objects3Objects = Hashtable.newFrom({"paper_clip3": gdjs.SimulationCode.GDpaper_9595clip3Objects3});
 gdjs.SimulationCode.mapOfGDgdjs_9546SimulationCode_9546GDTableObjects3Objects = Hashtable.newFrom({"Table": gdjs.SimulationCode.GDTableObjects3});
-gdjs.SimulationCode.eventsList59 = function(runtimeScene) {
+gdjs.SimulationCode.eventsList54 = function(runtimeScene) {
 
 {
 
@@ -3616,7 +3401,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.SimulationCode.eventsList60 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList55 = function(runtimeScene) {
 
 {
 
@@ -3635,7 +3420,7 @@ gdjs.SimulationCode.GDpaper_9595clipObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList57(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList52(runtimeScene);} //End of subevents
 }
 
 }
@@ -3658,7 +3443,7 @@ gdjs.SimulationCode.GDpaper_9595clip2Objects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList58(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList53(runtimeScene);} //End of subevents
 }
 
 }
@@ -3681,7 +3466,7 @@ gdjs.SimulationCode.GDpaper_9595clip3Objects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.SimulationCode.eventsList59(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList54(runtimeScene);} //End of subevents
 }
 
 }
@@ -4024,9 +3809,9 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.SimulationCode.eventsList61 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList56 = function(runtimeScene) {
 
-};gdjs.SimulationCode.eventsList62 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList57 = function(runtimeScene) {
 
 {
 
@@ -4122,14 +3907,6 @@ gdjs.SimulationCode.eventsList38(runtimeScene);
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(4)) == 1;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.SimulationCode.eventsList43(runtimeScene);} //End of subevents
-}
 
 }
 
@@ -4137,7 +3914,21 @@ gdjs.SimulationCode.eventsList43(runtimeScene);} //End of subevents
 {
 
 
-gdjs.SimulationCode.eventsList49(runtimeScene);
+gdjs.SimulationCode.eventsList44(runtimeScene);
+}
+
+
+{
+
+
+gdjs.SimulationCode.eventsList51(runtimeScene);
+}
+
+
+{
+
+
+gdjs.SimulationCode.eventsList55(runtimeScene);
 }
 
 
@@ -4148,21 +3939,7 @@ gdjs.SimulationCode.eventsList56(runtimeScene);
 }
 
 
-{
-
-
-gdjs.SimulationCode.eventsList60(runtimeScene);
-}
-
-
-{
-
-
-gdjs.SimulationCode.eventsList61(runtimeScene);
-}
-
-
-};gdjs.SimulationCode.eventsList63 = function(runtimeScene) {
+};gdjs.SimulationCode.eventsList58 = function(runtimeScene) {
 
 {
 
@@ -4502,7 +4279,7 @@ gdjs.copyArray(runtimeScene.getObjects("wire_card"), gdjs.SimulationCode.GDwire_
 }
 }
 { //Subevents
-gdjs.SimulationCode.eventsList62(runtimeScene);} //End of subevents
+gdjs.SimulationCode.eventsList57(runtimeScene);} //End of subevents
 }
 
 }
@@ -4729,7 +4506,7 @@ gdjs.SimulationCode.GDBackObjects3.length = 0;
 gdjs.SimulationCode.GDBackObjects4.length = 0;
 gdjs.SimulationCode.GDBackObjects5.length = 0;
 
-gdjs.SimulationCode.eventsList63(runtimeScene);
+gdjs.SimulationCode.eventsList58(runtimeScene);
 
 return;
 
