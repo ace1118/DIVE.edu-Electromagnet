@@ -11,6 +11,8 @@ gdjs.aboutCode.GDRestartObjects1= [];
 gdjs.aboutCode.GDRestartObjects2= [];
 gdjs.aboutCode.GDLessonObjects1= [];
 gdjs.aboutCode.GDLessonObjects2= [];
+gdjs.aboutCode.GDBackObjects1= [];
+gdjs.aboutCode.GDBackObjects2= [];
 
 
 gdjs.aboutCode.eventsList0 = function(runtimeScene) {
@@ -67,6 +69,8 @@ gdjs.aboutCode.GDRestartObjects1.length = 0;
 gdjs.aboutCode.GDRestartObjects2.length = 0;
 gdjs.aboutCode.GDLessonObjects1.length = 0;
 gdjs.aboutCode.GDLessonObjects2.length = 0;
+gdjs.aboutCode.GDBackObjects1.length = 0;
+gdjs.aboutCode.GDBackObjects2.length = 0;
 
 gdjs.aboutCode.eventsList0(runtimeScene);
 
